@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 54px;
+    font-weight: 600;
+    
+}
+#nav h3{
+    font-size: 18px;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 55px;
+    font-weight: 500;
+    
+}
+#nav d{
+    font-size: 18px;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 55px;
+    font-weight: 500;
+}
+#navh1{
+    font-weight: 500;
+    font-size: 23px;
+    
+}
+
+
+#nav button{
+    padding: 8px 13px;
+    border-radius:45px ;
+    border: 1.5px solid black;
+    font-weight: 600;
+    background-color: white;
+}
+#btn2{
+    color: aqua;
+    background-color: orangered;
+    
+}
+#head{
+    font-size: 156px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 430px;
+    width: 340px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    object-position: top;
+    border-radius: 20%;
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#btn-left{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-size: 17px;
+}
+i{
+    font-size: 67px;
+    position: absolute;
+        bottom: 5%;
+        left: 48%;
+        padding: 10px 20px;
+        
+        
+
+    
+}
+c{
+    font-size: 30px;
+    position: absolute;
+        bottom: 5%;
+        left: 90%;
+        padding: 10px 20px;
+        color: orangered;
+      }
+      x{
+        font-size: 30px;
+        position: absolute;
+            bottom: 5%;
+            left: 87%;
+            padding: 10px 20px;
+            color: orangered;
+          }
+          y{
+            font-size: 30px;
+            position: absolute;
+                bottom: 5%;
+                left: 84%;
+                padding: 10px 20px;
+                color: orangered;
+              }
+              #btn-right{
+                position: absolute;
+                bottom: 11%;
+                left: 87%;
+                font-size: 17px;
+                font-size: 14px;
+                color: orangered;
+            }
